@@ -21,6 +21,8 @@ public class Main {
         highScore = calculateScore(gameOver, score, levelCompleted, bonus);
         System.out.println("Your final score was " + highScore);
 
+        System.out.println("================================================================");
+
         }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
@@ -34,5 +36,6 @@ public class Main {
         return -1;
 
     }
+
 
 }
